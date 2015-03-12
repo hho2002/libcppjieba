@@ -1,6 +1,10 @@
 #ifndef CPPJIEBA_MPSEGMENT_H
 #define CPPJIEBA_MPSEGMENT_H
 
+#ifdef _MSC_VER
+typedef long ssize_t;
+#endif
+
 #include <algorithm>
 #include <set>
 #include <cassert>

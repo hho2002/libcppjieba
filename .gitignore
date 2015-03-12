@@ -17,3 +17,5 @@ t.*
 tags
 build
 node_modules
+*.obj
+*.exe
